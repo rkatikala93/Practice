@@ -14,12 +14,14 @@ choice = input("Enter your choice (1.Capitalize, 2.Upper, 3. Concatenate, 4.Lowe
 if choice == '1':
     x = name.capitalize()
     print("Hello " + x)
+    #New comment - not main branch
 elif choice == '2':
     x = name.upper()
     print("Hello " + x)
 elif choice == '3':
     x = input("Enter your friend name: \n")
     print(name.capitalize() + " " + x + " are friends!!")
+    #new comment - not main branch
 elif choice == '4':
     print("Hello " + name.lower() + "!!")
 else:
